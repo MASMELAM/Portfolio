@@ -31,14 +31,14 @@ h3 {
 
 h4 {
     text-shadow: 0.8px 0.8px 1px #1f1e1e;
-    font-size: 0.9em;
+    font-size: 1em;
     color: beige;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
-    font-size: 0.8em;
+    font-size: 0.95em;
     color: beige;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,7 +50,7 @@ p.inset {
 }
 
 p2 {
-    font-size: 0.8em;
+    font-size: 0.95em;
     color: beige;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -109,7 +109,7 @@ a:hover {
 }
 
 img {
-    width: 350px;
+    width: 250px;
     height: auto;
     float: right;
     padding: 20px;
