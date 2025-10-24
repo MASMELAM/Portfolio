@@ -1,11 +1,11 @@
 body {
-    background-color:rgb(228, 3, 116);
+    background-color:#ffffff;
 }
 
 h1 {
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px #000000;
     font-size: 2.5em;
-    color: beige;
+    color: #FFCAD4;
     text-align: center;
     margin: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,7 +15,7 @@ h1 {
 h2 {
     text-shadow: 1px 1px 2px #1f1e1e;
     font-size: 1.6em;
-    color: beige;
+    color: #C08497;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
@@ -24,7 +24,7 @@ h2 {
 h3 {
     text-shadow: 1px 1px 2px #1f1e1e;
     font-size: 1.1em;
-    color: beige;
+    color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -32,56 +32,73 @@ h3 {
 h4 {
     text-shadow: 0.8px 0.8px 1px #1f1e1e;
     font-size: 1em;
-    color: beige;
+    color: black;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
     font-size: 0.95em;
-    color: beige;
+    color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p.inset {
     border-style: inset;
     padding: 10px;
-    border-color: rgb(242, 202, 239)
+    border-color: #FFA69E
 }
 
 p2 {
     font-size: 0.95em;
-    color: beige;
+    color: black;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #theme-button {
     color: rgb(228, 3, 116);
-    background-color: pink;
+    background-color:#FFCAD4;
     border-radius: 8px;
     border: 1px solid beige;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 #theme-button:hover {
     background-color: rgb(193, 110, 124);
 }
 
 :root.different-color body {
-    background-color: rgb(0, 0, 0);
+    background-color: #6461A0;
 }
 
-:root.different-color h1, :root.different-color h2, :root.different-color h3, :root.different-color h4, :root.different-color p, :root.different-color p2 {
-    color: rgb(242, 202, 239);
+:root.different-color h1 {
+    color: #EFBDEB;
+}
+
+:root.different-color h2, :root.different-color h3 {
+    color: #B68CB8
+}
+
+:root.different-color h4, :root.different-color p, :root.different-color p2 {
+    color: white;
 }
 
 :root.different-color p.inset {
-    border-color: rgb(63, 103, 118);
+    border-color: #0A81D1;
+}
+:root.different-color a, :root.different-color #theme-button {
+    color: #314CB6;
+}
+
+:root.different-color .nav-bar {
+    background-color: #B68CB8;
 }
 
 .nav-bar {
-    background-color: rgb(242, 202, 239);
+    background-color: #B0D0D3;
     width: 100%;
     padding: 5px;
     top: 0px;
