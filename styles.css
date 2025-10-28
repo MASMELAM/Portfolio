@@ -47,7 +47,7 @@ p.inset {
     border-style: inset;
     padding: 10px;
     border-color: #FFA69E;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -92,8 +92,8 @@ p2 {
 :root.different-color p.inset {
     border-color: #0A81D1;
 }
-:root.different-color a, :root.different-color #theme-button {
-    color: #314CB6;
+:root.different-color a, :root.different-color .dropbtn, :root.different-color #theme-button {
+    color: #31adb6;
 }
 
 :root.different-color .nav-bar {
@@ -118,7 +118,7 @@ p2 {
 }
 
 .nav-bar a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a {
@@ -138,9 +138,9 @@ img {
 
 /* Quick Links Tab*/
 .dropdown {
-position: relative;
+    position: relative;
 }
-.dropbtn, .about, .projects, .leadership, .research, .clubs {
+.dropbtn, .about-btn, .projects-btn, .leadership-btn, .research-btn, .clubs-btn {
     color: rgb(228, 3, 116);
     background-color:#FFCAD4;
     border: 1px solid beige;
@@ -171,4 +171,10 @@ position: relative;
 }
 .dropdown:hover .dropbtn {
     background-color: rgb(231, 180, 218);
+}
+
+
+.research1 {
+    display: flex;
+    justify-content: center;
 }

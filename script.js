@@ -1,8 +1,15 @@
-let themeButton = document.getElementById('theme-button'); //references html file to get id
+const themeButton = document.getElementById("theme-button");
 
-const changeColor = () => { //const = define function in javascript, this is for changing color
-    document.documentElement.classList.toggle('different-color');
-    document.body.classList.toggle('different-color');
+// Load the saved theme on page load
+if (localStorage.getItem("differentColor") === "true") {
+  document.documentElement.classList.add("different-color");
 }
 
-themeButton.addEventListener('click', changeColor); //event listener for button click to change color
+// Toggle the color theme when clicking the button
+themeButton.addEventListener("click", () => {
+  document.documentElement.classList.toggle("different-color");
+
+  // Save the current theme state in localStorage so it doesnt change when switching pages
+  const isDifferentColor = document.documentElement.classList.contains("different-color");
+  localStorage.setItem("differentColor", isDifferentColor);
+});
